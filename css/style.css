@@ -1,0 +1,164 @@
+/* test cadre */
+.test-cadre {
+  border: 1px solid red;
+}
+/* test boite */
+.test-boite {
+  width: 100%;
+  height: 10vh;
+  border: 1px solid green;
+}
+body {
+  background-color: #dedede;
+}
+.container {
+  border: 1px solid lightblue;
+  width: 80%;
+}
+/* ----------------------- PARTIE HEADER ----------------------- */
+header {
+  height: 45vh;
+  position: relative;
+}
+#bg-img {
+  background-image: url("../img/bg-morne.jpg");
+  background-repeat: no-repeat;
+  background-position-y: center;
+  /* background-position-x: center; */
+  background-size: cover;
+}
+#logo {
+  /* width: 30px; */
+  height: 30px;
+}
+.bouton-menu {
+  border: 1px solid #0275d8;
+  border-radius: 3px;
+  background-color: #fff;
+  padding: 3px;
+  margin: 0 5px;
+}
+
+h1 {
+  font-size: 4vw;
+}
+.divh1 {
+  text-align: center;
+  color: white;
+  margin-top: 15vh;
+}
+.divh1 span {
+  position: absolute;
+  right: 5px;
+  bottom: 0;
+}
+
+/* ----------------------- PARTIE MAIN (INDEX)----------------------- */
+h2 {
+  font-size: 2vw;
+}
+.bloc-texte {
+  /* padding-top: 10px; */
+  padding-bottom: 10px;
+  text-justify: auto;
+  /* border: 1px solid gray;
+  border-radius: 3px; */
+}
+.carte {
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2rem;
+  box-shadow: 10px 10px 10px rgba(128, 128, 128, 0.40);
+
+}
+.shadow{
+  box-shadow: 10px 10px 10px rgba(128, 128, 128, 0.40);
+}
+.bloc-carte {
+  position: relative;
+}
+.drapeau {
+  width: 20%;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.menu {
+  /* border-left: 2px solid black; */
+  /* border-right: 2px solid black; */
+  color: white;
+  font-size: 1rem;
+  list-style-type: none;
+}
+.bk-lightblue {
+  background-color: lightblue;
+}
+article {
+  font-size: 1rem;
+}
+
+/* ----------------------- PARTIE MAIN (TOP5)----------------------- */
+.bloc-card {
+  width: 18rem;
+}
+
+
+.btn-top5 {
+  width: 40vw;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 15vw;
+  margin-right: 15vw;
+
+}
+
+/* ----------------------- PARTIE MAIN (VIDEOS)----------------------- */
+
+.video-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+  box-shadow: 10px 10px 10px rgba(128, 128, 128, 0.40);
+}
+.video-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+/* ----------------------- PARTIE FOOTER ----------------------- */
+footer{
+  border-top: 1px solid gray;
+  padding: 20px;
+}
+.bloc-plan {
+  height: 20vh;
+  width: 100%;
+  border-radius: 3px;
+  /* margin-bottom: 10vh; */
+  box-shadow: 10px 10px 10px rgba(128, 128, 128, 0.40);
+
+}.btnFooter {
+  width: 300px;
+  padding: 10px;
+}
+.empty{
+  width: 100%;
+}
+
+@media screen and (max-width:320px) {
+  .container {
+    width: 100%;
+  }
+  .btn-top5 {
+    width: 80vw;
+    margin: 10px;
+    
+  
+  }
+}

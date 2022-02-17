@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vidéos</title>
+    <!-- lien favicon -->
+    <link rel="shortcut icon" href="img/drapeau-mauricien.png" type="image/x-icon">
+    <!-- Lien vers CDN bootstrap 4.6.1 -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
+
+    <!-- lien css principal -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- début body -->
+    <div class="container bg-white">
+      <!-- bandeau nav -->
+      <header id="bg-img">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <a class="logo-lien" href="https://www.ile-maurice.fr/"
+            ><img
+              src="img/logo-mauritius.png"
+              target="_blank"
+              id="logo"
+              alt="logo ile maurice"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item bouton-menu btn-outline-primary">
+                <a class="nav-link" href="./index.html"
+                  >Home <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item bouton-menu btn-outline-primary">
+                <a class="nav-link" href="./top5.html">TOP 5 à visiter</a>
+              </li>
+              <li class="nav-item bouton-menu btn-outline-primary active">
+                <a class="nav-link" href="./videos.html">Vidéos</a>
+              </li>
+            </ul>
+            <!-- <form class="form-inline my-2 my-lg-0">
+              <input
+                class="form-control mr-sm-2"
+                type="search"
+                placeholder="Recherche"
+                aria-label="Search"
+              />
+              <button
+                class="btn btn-outline-success my-2 my-sm-0"
+                type="submit"
+              >
+                Search
+              </button>
+            </form> -->
+          </div>
+        </nav>
+        <div class="divh1">
+          <h1>Evadez-vous à l'île Maurice !</h1>
+          <span>Vue sur le Grand Morne</span>
+        </div>
+      </header>
+      <main>
+        <div class="mt-5 text-center">
+          <h2>Amusez-vous à décrypter le créole !</h2>
+        </div>
+
+        <article class="col-md-10 mx-auto bloc-texte">
+          <p>
+            Voici une petite vidéo sympathique provenant de la chaîne Youtube "1
+            ti letour". Vous allez découvrir le langage créole mauricien !<br />
+            Essayez de trouver les équivalences avec le français ! Vous verrez
+            qu'il y en a beaucoup !
+          </p>
+        </article>
+
+        <div class="col-md-8 mx-auto my-5 video-responsive video">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube-nocookie.com/embed/lszuwfx3fMs?start=36"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+
+        <div class="m-5"></div>
+
+        <hr />
+
+        <div class="m-5"></div>
+
+        <div class="mt-5 text-center">
+          <h2>La danse mauricienne : le SEGA !</h2>
+        </div>
+
+        <article class="col-md-10 mx-auto bloc-texte">
+          <p>
+            Vous avez tous danser sur ce hit mondialement connu. Mais avez-vous
+            essayé de le faire à la mauricienne ?
+          </p>
+        </article>
+
+        <div class="col-md-6 mx-auto video-responsive">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/q2oiLg5w4bE"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </main>
+
+      <!-- footer copyright + bouton -->
+      <footer class="d-flex justify-content-center align-items-center mt-5">
+        <!-- un titre + un bouton -->
+        <div class="col-md-3 mx-auto">
+          <iframe
+            class="bloc-plan"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d315203.6142618003!2d57.40593582365537!3d-20.246802715554452!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x217c504df94474c9%3A0x4203d9c2116bd031!2sMaurice!5e0!3m2!1sfr!2sfr!4v1643293564649!5m2!1sfr!2sfr"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
+
+        <div class="col-md-3 btnFooter">
+          <p class="text-center">&copy; Matthieu Prigent - Website</p>
+          <button type="button" class="btn btn-secondary w-100 my-3">
+            Contact
+          </button>
+        </div>
+        <div class="col-md-3 empty"></div>
+      </footer>
+    </div>
+
+    <!-- zone du script -->
+
+    <!-- script bootstrap v4.6 -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/app.js"></script>
+    <!-- fin body -->
+  </body>
+</html>
